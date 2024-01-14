@@ -1,0 +1,20 @@
+<style></style>
+
+<main>
+  <nav id="menu" class="{{ colorFondo }}">
+    <div id="{{ eventBox }}">{{ message }}</div>
+    <div id="login">{{log}}</div>
+    <div class="box">
+      <button (click)="login()" id="btn">{{ action }}</button>
+    </div>
+  </nav>
+  <div>
+    <h1>Bienvenido!!!</h1>
+    <p class="info">
+      Puedes conectarte pulsando el botón de arriba a la derecha.
+    </p>
+    <p class="info">Si te quieres desconectar vuelve a pulsar el botón</p>
+  </div>
+</main>
+
+<router-outlet> </router-outlet>
